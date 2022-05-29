@@ -1,7 +1,7 @@
 const environment = "local"
 const config = {
   backend: {
-    url: "http://localhost:4500"
+    url: "https://aqueous-springs-90349.herokuapp.com/"
   }
 }
 // eslint-disable-next-line import/no-anonymous-default-export

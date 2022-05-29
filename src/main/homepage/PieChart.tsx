@@ -36,7 +36,7 @@ const PieCharts = () => {
 
   const { data, loading } = useQuery(TODOSTATS, {
     variables: {
-      email: userContext.user.email
+      email: userContext?.user?.email
     },
     fetchPolicy: "network-only"
   })
